@@ -12,9 +12,9 @@ Cotopaxi App es una aplicación móvil que permite a los usuarios autenticarse, 
 
 ## Capturas de pantalla
 
-![Inicio de Sesión](assets/imagenes/interfaces/Login.png)
-![Especies](assets/imagenes/interfaces/Especies.png)
-![Historia](assets/imagenes/interfaces/Historia.png)
+![Inicio de Sesión](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Login.png)
+![Especies](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Especies.png)
+![Historia](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Historia.png)
 
 ## Instalación
 
@@ -31,8 +31,8 @@ Cotopaxi App es una aplicación móvil que permite a los usuarios autenticarse, 
 
 ## Autor
 
-Cotopaxi App es desarrollada por [Tu nombre o el nombre de tu equipo].
+Cotopaxi App es desarrollada por Norman Martínez y Sebastián Soberón.
 
 ## Licencia
 
-Este proyecto se distribuye bajo la Licencia [Nombre de la licencia]. Para obtener más información, consulta el archivo `LICENSE`.
+Este proyecto se distribuye bajo la Licencia MIT. Para obtener más información, consulta el archivo `LICENSE`.
