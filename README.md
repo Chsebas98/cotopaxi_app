@@ -15,6 +15,7 @@ Cotopaxi App es una aplicación móvil que permite a los usuarios autenticarse, 
 ![Inicio de Sesión](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Login.png)
 ![Especies](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Especies.png)
 ![Historia](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Historia.png)
+![Fauna](https://github.com/Chsebas98/cotopaxi_app/blob/master/assets/imagenes/Interfaces/Fauna.png)
 
 ## Instalación
 
