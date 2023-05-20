@@ -121,7 +121,8 @@ class _LoginForm extends StatelessWidget {
                         "https://img.freepik.com/iconos-gratis/buscar_318-265146.jpg"),
                   ),
                   SizedBox(
-                      width: 5), // Ajusta el espacio entre la imagen y el texto
+                      width:
+                          10), // Ajusta el espacio entre la imagen y el texto
                   Text(
                     "Google",
                     style: TextStyle(
