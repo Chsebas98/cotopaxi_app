@@ -103,32 +103,36 @@ class _LoginForm extends StatelessWidget {
             height: 30,
           ),
           MaterialButton(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10.0)),
-              disabledColor: Colors.grey,
-              elevation: 0,
-              color: Colors.grey.shade100,
-              child: Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 70, vertical: 15),
-                child: Row(
-                  children: const [
-                    Image(
-                        width: 30,
-                        height: 30,
-                        image: NetworkImage(
-                            "https://img.freepik.com/iconos-gratis/buscar_318-265146.jpg")),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text(
-                      "Google",
-                      style: TextStyle(color: Colors.black, fontSize: 25),
-                    ),
-                  ],
-                ),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10.0),
+            ),
+            disabledColor: Colors.grey,
+            elevation: 0,
+            color: Colors.grey.shade100,
+            child: Container(
+              padding: const EdgeInsets.symmetric(
+                  horizontal: 90, vertical: 10), // Ajusta el tamaño del padding
+              child: Row(
+                children: const [
+                  Image(
+                    width: 20, // Ajusta el tamaño de la imagen
+                    height: 20,
+                    image: NetworkImage(
+                        "https://img.freepik.com/iconos-gratis/buscar_318-265146.jpg"),
+                  ),
+                  SizedBox(
+                      width: 5), // Ajusta el espacio entre la imagen y el texto
+                  Text(
+                    "Google",
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 18), // Ajusta el tamaño del texto
+                  ),
+                ],
               ),
-              onPressed: () {})
+            ),
+            onPressed: () {},
+          )
         ],
       )),
     );
