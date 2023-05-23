@@ -1,4 +1,3 @@
-import 'package:auth_buttons/auth_buttons.dart';
 import 'package:cotopaxi_app/ui/input_decoration.dart';
 import 'package:cotopaxi_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
