@@ -5,14 +5,14 @@ import 'package:cotopaxi_app/Presentation/Screens/Views/profile_view.dart';
 import 'package:cotopaxi_app/Presentation/Screens/Views/routes_view.dart';
 import 'package:flutter/material.dart';
 
-class MainScreen extends StatefulWidget {
-  const MainScreen({super.key});
+class NavbarView extends StatefulWidget {
+  const NavbarView({super.key});
 
   @override
-  State<MainScreen> createState() => _MainScreenState();
+  State<NavbarView> createState() => _NavbarState();
 }
 
-class _MainScreenState extends State<MainScreen> {
+class _NavbarState extends State<NavbarView> {
 
   int selectedIndex = 0;
 

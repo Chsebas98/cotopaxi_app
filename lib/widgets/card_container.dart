@@ -5,7 +5,6 @@ class CardContainer extends StatelessWidget {
   final Widget child;
   @override
   Widget build(BuildContext context) {
-    final hSize = MediaQuery.of(context).size;
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 1.0),
       child: Container(
