@@ -13,8 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Cotopaxi App',
       initialRoute: 'login',
       routes: {
-        'login': (context) => LoginScreen(),
-        'home': (context) => HomeScreen()
+        'login': (context) => const LoginScreen(),
+        'home': (context) => const HomeScreen(),
+        'register': (context) => const RegisterScreen()
       },
       theme:
           ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.grey[300]),
