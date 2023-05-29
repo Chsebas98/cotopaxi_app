@@ -170,7 +170,10 @@ class _LoginForm extends StatelessWidget {
                 ],
               ),
             ),
-            onPressed: () {},
+            //TODO:Cambiar por inicio con Google
+            onPressed: () {
+              Navigator.pushNamed(context, "info_page");
+            },
           )
         ],
       )),
