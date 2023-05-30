@@ -21,7 +21,10 @@ class MyApp extends StatelessWidget {
         'info_page': (context) => const InfoScreen()
       },
       theme:
-          ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.grey[300]),
+          ThemeData(
+          fontFamily: 'LeagueSpartan'
+          ),
+
     );
   }
 }
