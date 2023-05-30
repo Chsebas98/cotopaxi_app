@@ -9,15 +9,15 @@ class CardContainer extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 1.0),
       child: Container(
         width: double.infinity,
-        padding: EdgeInsets.all(25.0),
+        padding: const EdgeInsets.all(25.0),
         decoration: _crearCard(),
-        child: this.child,
+        child: child,
       ),
     );
   }
 
   BoxDecoration _crearCard() {
-    return BoxDecoration(
+    return const BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.only(
           topLeft: Radius.circular(50.0), // Radio de borde superior izquierdo

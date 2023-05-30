@@ -15,8 +15,10 @@ class MyApp extends StatelessWidget {
       title: 'Cotopaxi App',
       initialRoute: 'login',
       routes: {
-        'login': (context) => LoginScreen(),
-        'home': (context) => NavbarView()
+        'login': (context) => const LoginScreen(),
+        'home': (context) => const NavbarView(),
+        'register': (context) => const RegisterScreen(),
+        'info_page': (context) => const InfoScreen()
       },
       theme:
           ThemeData(

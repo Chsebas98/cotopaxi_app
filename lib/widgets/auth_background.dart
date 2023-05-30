@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class AuthBackground extends StatelessWidget {
   const AuthBackground({Key? key, required this.child}) : super(key: key);
@@ -11,7 +10,7 @@ class AuthBackground extends StatelessWidget {
       color: Colors.grey[300],
       width: double.infinity,
       height: double.infinity,
-      child: Stack(children: [const _ColorHead(), this.child]),
+      child: Stack(children: [const _ColorHead(), child]),
     );
   }
 }
@@ -26,7 +25,7 @@ class _ColorHead extends StatelessWidget {
       width: double.infinity,
       height: size.height * 0.4,
       color: const Color.fromRGBO(65, 109, 108, 1),
-      child: Stack(children: [const _TituloLogo()]),
+      child: Stack(children: const [_TituloLogo()]),
     );
   }
 }
