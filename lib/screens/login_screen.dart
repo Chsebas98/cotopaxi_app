@@ -103,7 +103,7 @@ class _LoginForm extends StatelessWidget {
                   style: TextStyle(color: Colors.white),
                 ),
               ),
-              onPressed: () {}),
+              onPressed: () { Navigator.pushNamed(context, 'home');}),
           const SizedBox(
             height: 10,
           ),

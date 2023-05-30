@@ -1,3 +1,5 @@
+import 'package:cotopaxi_app/Presentation/Screens/Views/home_view.dart';
+import 'package:cotopaxi_app/Presentation/Screens/navbar_screen.dart';
 import 'package:cotopaxi_app/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
       initialRoute: 'login',
       routes: {
         'login': (context) => const LoginScreen(),
-        'home': (context) => const HomeScreen(),
+        'home': (context) => const NavbarView(),
         'register': (context) => const RegisterScreen(),
         'info_page': (context) => const InfoScreen()
       },
