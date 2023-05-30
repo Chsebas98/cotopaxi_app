@@ -19,7 +19,10 @@ class MyApp extends StatelessWidget {
         'home': (context) => NavbarView()
       },
       theme:
-          ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.grey[300]),
+          ThemeData(
+          fontFamily: 'LeagueSpartan'
+          ),
+
     );
   }
 }
