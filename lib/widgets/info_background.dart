@@ -75,7 +75,7 @@ class _Description extends StatelessWidget {
     return Align(
       alignment: Alignment.bottomCenter,
       child: Container(
-          padding: EdgeInsets.symmetric(vertical: 90, horizontal: 35),
+          padding: const EdgeInsets.symmetric(vertical: 90, horizontal: 35),
           width: double.infinity,
           height: MediaQuery.of(context).size.height / 2,
           child: SingleChildScrollView(child: child)),

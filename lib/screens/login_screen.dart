@@ -1,3 +1,4 @@
+import 'package:cotopaxi_app/atoms/atoms.dart';
 import 'package:cotopaxi_app/ui/input_decoration.dart';
 import 'package:cotopaxi_app/widgets/widgets.dart';
 import 'package:flutter/material.dart';
@@ -31,21 +32,19 @@ class LoginScreen extends StatelessWidget {
             )),
             CardContainer(
               child: Column(
-                children: [
+                children: const [
                   Text(
                     "Bienvenido",
-                    style: Theme.of(context).textTheme.headline2?.copyWith(
-                        color: const Color.fromRGBO(65, 109, 108, 1),
-                        fontWeight: FontWeight.bold),
+                    style: AppTheme.loginTitle2Style,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 1,
                   ),
-                  const Text(
+                  Text(
                     "Ingresa tus datos para continuar",
-                    style: TextStyle(fontSize: 16, color: Colors.black54),
+                    style: AppTheme.loginSubtitle,
                   ),
-                  const _LoginForm(),
+                  _LoginForm(),
                 ],
               ),
             )
@@ -94,13 +93,13 @@ class _LoginForm extends StatelessWidget {
                   borderRadius: BorderRadius.circular(10.0)),
               disabledColor: Colors.grey,
               elevation: 0,
-              color: const Color.fromRGBO(65, 109, 108, 1),
+              color: AppTheme.greenColor,
               child: Container(
                 padding:
                     const EdgeInsets.symmetric(horizontal: 80, vertical: 15),
                 child: const Text(
                   "Iniciar Sesión",
-                  style: TextStyle(color: Colors.white),
+                  style: AppTheme.whiteColor,
                 ),
               ),
               onPressed: () {}),

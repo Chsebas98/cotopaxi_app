@@ -1,3 +1,4 @@
+import 'package:cotopaxi_app/atoms/atoms.dart';
 import 'package:cotopaxi_app/screens/screens.dart';
 import 'package:flutter/material.dart';
 
@@ -9,17 +10,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Cotopaxi App',
-      initialRoute: 'login',
-      routes: {
-        'login': (context) => const LoginScreen(),
-        'home': (context) => const HomeScreen(),
-        'register': (context) => const RegisterScreen(),
-        'info_page': (context) => const InfoScreen()
-      },
-      theme:
-          ThemeData.light().copyWith(scaffoldBackgroundColor: Colors.grey[300]),
-    );
+        debugShowCheckedModeBanner: false,
+        title: 'Cotopaxi App',
+        initialRoute: 'login',
+        routes: {
+          'login': (context) => const LoginScreen(),
+          'home': (context) => const HomeScreen(),
+          'register': (context) => const RegisterScreen(),
+          'info_page': (context) => const InfoScreen()
+        },
+        theme: AppTheme.lightTheme);
   }
 }
