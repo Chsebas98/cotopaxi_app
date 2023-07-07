@@ -39,7 +39,7 @@ dependencies:
   auth_buttons: ^3.0.0
   flutter_spinkit: ^5.2.0
   transparent_image: ^2.0.0
-  
+  flutter_unity_widget_pro: ^2022.2.1
 dev_dependencies:
   flutter_test:
     sdk: flutter
